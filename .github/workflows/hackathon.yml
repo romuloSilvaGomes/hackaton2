@@ -41,4 +41,5 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          folder: .
           token: ${{ secrets.GITHUB_TOKEN }}  # Usar o token de acesso para autenticação
